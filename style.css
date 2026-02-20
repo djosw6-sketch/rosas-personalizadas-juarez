@@ -1,0 +1,99 @@
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background: #fff5f7;
+color: #333;
+text-align: center;
+}
+
+.hero {
+background: linear-gradient(135deg, #b5179e, #7209b7);
+color: white;
+padding: 110px 20px;
+}
+
+h1 {
+font-size: 42px;
+}
+
+.btn-principal {
+display: inline-block;
+margin-top: 25px;
+padding: 18px 35px;
+background: #ffcad4;
+color: #7209b7;
+text-decoration: none;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.sobre {
+padding: 60px 20px;
+}
+
+.galeria {
+padding: 60px 20px;
+background: #ffe5ec;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+}
+
+.grid img {
+width: 100%;
+border-radius: 10px;
+}
+
+.precios {
+padding: 70px 20px;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
+
+.card {
+background: white;
+padding: 25px;
+width: 250px;
+border-radius: 15px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.destacado {
+border: 3px solid #b5179e;
+}
+
+.testimonios {
+background: #f8edeb;
+padding: 60px 20px;
+}
+
+.cta {
+background: #7209b7;
+color: white;
+padding: 80px 20px;
+}
+
+.btn-secundario {
+display: inline-block;
+margin-top: 25px;
+padding: 18px 35px;
+background: white;
+color: #7209b7;
+text-decoration: none;
+border-radius: 10px;
+font-weight: bold;
+}
+
+footer {
+background: #560bad;
+color: white;
+padding: 20px;
+}
